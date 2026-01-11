@@ -3,7 +3,7 @@ from sqlmodel import Session, select
 from models import Task
 from database import get_session, create_db_and_tables
 
-app = FastAPI(title="Task API with SQLModel + Neon")
+app = FastAPI()
 
 
 # 🔹 Create tables on startup
@@ -29,7 +29,7 @@ def get_tasks(session: Session = Depends(get_session)):
 
 
 # 🔹 READ SINGLE TASK
-@app.get("/-tasks/{task_id}")
+@app.get("/tasks/{task_id}")
 def get_task(task_id: int, session: Session = Depends(get_session)):
     task = session.get(Task, task_id)
     if not task:
