@@ -1,89 +1,105 @@
-# 📦 Project Skills Collection
+# AI-400 | Class 1 Project  
+## Task Management API + Skills Development
 
-This project contains a set of reusable **skills** designed to help with learning, studying, and code improvement.  
-Each skill is focused on **one clear task** and can be used independently.
-
----
-
-## 🚀 Included Skills
-
-### 1. 🔧 Code Minimizer (`code-minimizer`)
-Reduces and cleans code by:
-- Removing unnecessary spaces
-- Simplifying structure
-- Making code shorter and more readable  
-
-**Use case:** Optimize code before sharing or deploying.
+This project is part of the **AI-400 course (Class 1)**.  
+The goal of this assignment is to think like an **AI-native developer** by extracting reusable skills and building a complete **Task Management API** using modern backend tools.
 
 ---
 
-### 2. 🧠 Flashcards (`flashcards`)
-Creates flashcards from text or notes to help with:
-- Quick revision
-- Memorization
-- Active learning  
+## 📌 Project Overview
 
-**Use case:** Studying concepts, definitions, or key points.
+This project has **three main parts**:
 
----
+1. **Skills Development**
+   - Extract repetitive tasks from daily workflow
+   - Convert them into reusable agent skills
 
-### 3. ❓ Quiz Generator (`quiz`)
-Generates quiz questions from provided content.
-- Multiple choice or short questions
-- Helps test understanding  
+2. **Backend Development**
+   - Build a Task Management API
+   - Use FastAPI, pytest, and SQLModel
 
-**Use case:** Self-testing after studying a topic.
+3. **Final Demo**
+   - Record a short demo video showing the project in action
 
 ---
 
-### 4. 🛠 Skill Creator (`skill-creator`)
-Helps create new skills by:
-- Defining purpose
-- Structuring inputs and outputs
-- Making skills reusable  
+## 🧠 Skills Created
 
-**Use case:** Building custom skills for repeated tasks.
+Total Skills: **4–5**
 
----
+### 🔧 Technical Skills (3)
+- API creation using FastAPI
+- Database modeling with SQLModel
+- Test-driven development using pytest
 
-### 5. 📝 Study Notes (`study-notes`)
-Converts raw content into structured study notes.
-- Headings
-- Bullet points
-- Clear explanations  
+### 📋 Daily Workflow Skills (1–2)
+- Task creation and updates
+- Managing repeated daily development actions
 
-**Use case:** Turning lectures or articles into notes.
-
----
-
-### 6. ✂️ Summary Creation (`summary-creation`)
-Creates short and clear summaries from long text.
-- Keeps key ideas
-- Removes unnecessary details  
-
-**Use case:** Quick understanding of long content.
+Each skill is:
+- Focused on **one clear task**
+- Reusable
+- Time-saving
 
 ---
 
-## 🎯 Goal of This Project
+## 🛠️ Tech Stack
 
-- Save time ⏱
-- Reduce mental effort 🧩
-- Improve learning and productivity 📈
-
-Each skill is designed to be **small, focused, and practical**.
+| Technology | Purpose |
+|-----------|--------|
+| FastAPI | API Framework |
+| pytest | Test-Driven Development |
+| SQLModel | Database Design & Management |
 
 ---
 
-## 📁 Project Structure (Example)
+## 🚀 Task Management API Features
 
-```text
-skills/
-├── code-minimizer/
-├── flashcards/
-├── quiz/
-├── skill-creator/
-├── study-notes/
-└── summary-creation/
+The API supports full **CRUD operations**:
 
-#Claude #Claude code #claude project #Project #AI #Agentic ai #Chatbot
+- ✅ Create a task  
+- 📄 Read task(s)  
+- ✏️ Update a task  
+- ❌ Delete a task  
+
+The API is connected to a database using **SQLModel** and tested using **pytest**.
+
+---
+
+## 🧪 Testing
+
+- Unit tests written using **pytest**
+- CRUD endpoints are tested
+- Database actions are verified
+
+---
+
+## 🎥 Demo Video
+
+A **60–90 second screen recording** is included that shows:
+- Skills overview
+- Task Management API working
+- CRUD operations in action
+
+---
+
+## 📦 Submission Checklist
+
+- [x] 4–5 Skills created  
+- [x] Task Management API (CRUD)  
+- [x] FastAPI + SQLModel integration  
+- [x] pytest tests  
+- [x] Demo video (60–90 seconds)
+
+---
+
+## ✅ Status
+
+**Assignment Completed Successfully**
+
+---
+
+## 👤 Author
+
+**Taha Amin**  
+AI-400 Student  
