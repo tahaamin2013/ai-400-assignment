@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Skill(code-minimizer)"
+      "Skill(code-minimizer)",
+      "Skill(skill-creator)",
+      "Bash(python:*)",
+      "Bash(set PYTHONIOENCODING=utf-8:*)",
+      "Bash(pip install:*)"
     ]
   }
 }
